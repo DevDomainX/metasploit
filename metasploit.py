@@ -2,7 +2,7 @@
 import os
 from time import sleep
 from colorama import init, Fore, Style 
-
+os.system("clear")
 title = Fore.BLUE+Style.BRIGHT+"""
     #############################
     ||     Created by : 1LugarParaProgramar  ||
@@ -19,7 +19,7 @@ for i in title:
    sleep(0.1)
    
 op = input("Desea Intalar METASPLOIT (s/n): => ")
-if op == "y" :
+if op == "s" :
     print("Dando permiso de almacenamiento")
     sleep(3)
     os.system("termux-setup-stotage")
